@@ -12,7 +12,7 @@ For LMDB data source you need to separate your data input and your labels by cre
 
 To share it I've created a small script available on [github](https://github.com/kostyaev/ml-utils/blob/master/create_multilabel_lmdb.py). You can run it as in this example:
 
-{% highlight %}
+{% highlight bash %}
 python create_multilabel_lmdb.py 
 	--images /path/to/image_file/images.txt 
 	--labels /path/to/labels_file/labels.npy 
@@ -27,7 +27,7 @@ python create_multilabel_lmdb.py
 
 What this script do is reads the images text file having the format like this:
 
-{% highlight %}
+{% highlight bash %}
  /path/to/dir/img1.jpg
  /path/to/dir/img2.jpg
  ...
@@ -35,7 +35,7 @@ What this script do is reads the images text file having the format like this:
 
 Reads the labels file, which is just a 2d numpy array serialized using numpy, here is the example of an array:
 
-{% highlight %}
+{% highlight bash %}
 [
 	[1,0,1,0,1], 
 	[0,1,0,0,1],
