@@ -9,7 +9,7 @@ comments: true
 share: true
 ---
 
-In the rise of social media customer's opinions has become extremely valuable for businesses selling their products, financial markets and social researches. To extract opinions from customer's reviews, comments or other kind of text data you might want to know what sentiment analysis is. 
+In the rise of social media customer’s opinions has become extremely valuable for businesses selling their products, financial markets and social researches. To extract opinions from customer’s reviews, comments or other kind of text data you might want to know what sentiment analysis is. 
 
 > Sentiment analysis and opinion mining is the field of study that analyzes people's opinions, sentiments, evaluations, attitudes, and emotions from written language.[^1]
 
@@ -25,7 +25,7 @@ There is a number of methods for sentiment analysis that can be divided in two g
 	* NB (Naive Bayes classifier)
 	* biNB (Naive Bayes with bag of bigram features)
 	* SVM (Support Vector Machine)
-  * **RNTN (Recursive Neural Tensor Network)**
+	* RNTN (Recursive Neural Tensor Network)
 	* RNN (Recursive Neural Network)
 	* MV-RNN (Matrix-Vector RNN)
 
@@ -39,7 +39,7 @@ As you may already know there is great open source library for natural language 
 
 ### How to use it
 
-LetвЂ™s dive into details on how to use CoreNLP in Scala. Since Scala is compatible with Java, you can simply import CoreNLP library in your Scala project. To include library and models for sentiment component in your project add the following dependency to the sbt build file:
+Let’s dive into details on how to use CoreNLP in Scala. Since Scala is compatible with Java, you can simply import CoreNLP library in your Scala project. To include library and models for sentiment component in your project add the following dependency to the sbt build file:
 
 {% highlight scala %}
 libraryDependencies += "edu.stanford.nlp" % "stanford-corenlp" % "3.3.1" artifacts (Artifact("stanford-corenlp", "models"), Artifact("stanford-corenlp"))
@@ -97,3 +97,4 @@ trait SentimentTools {
 }
 
 {% endhighlight %}
+

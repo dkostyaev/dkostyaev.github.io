@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+     
+    <url>
+        <loc>http://www.kostyaev.me/</loc>
+    </url> 
+    <url>
+        <loc>http://www.kostyaev.me/categories</loc>
+    </url> 
+    <url>
+        <loc>http://www.kostyaev.me/tags</loc>
+    </url>
+    
+    
+    <url>
+        <loc>http://www.kostyaev.me/article/Linear-operations</loc>
+    </url>
+    
+    <url>
+        <loc>http://www.kostyaev.me/article/Semantic-Clustering-of-Images</loc>
+    </url>
+    
+    <url>
+        <loc>http://www.kostyaev.me/article/Why-top-5-error-is-more-fair-metric-than-top-1-for-ImageNet-classification-task</loc>
+    </url>
+    
+    <url>
+        <loc>http://www.kostyaev.me/article/Multilabel-Dataset</loc>
+    </url>
+    
+    <url>
+        <loc>http://www.kostyaev.me/article/Sentiment-analysis</loc>
+    </url>
+    
+</urlset>
