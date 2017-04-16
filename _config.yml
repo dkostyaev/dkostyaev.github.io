@@ -88,7 +88,7 @@ sitemap:
 timezone:    Europe/Moscow
 future:      true
 markdown:    kramdown
-# highlighter: rouge
+highlighter: rouge
 paginate:    6
 paginate_path: "/blog/:num/"
 
@@ -103,7 +103,7 @@ collections:
 
 kramdown:
   input: GFM
-  syntax_highlighter: pygments
+  syntax_highlighter: rouge
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
