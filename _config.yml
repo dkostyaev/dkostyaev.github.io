@@ -1,6 +1,6 @@
-title:            Dmitry Kostyaev
-description:      "IT articles" 
-logo:             java-logo-lambda.png
+title:            Dmitry Kostyaev Blog
+description:      "Computer science, machine learning, neural networks" 
+logo:             
 disqus_shortname: kostyaev
 # Assign a default image for your site's header and footer
 default_bg:       default_bg.jpg
@@ -43,7 +43,7 @@ jekyll-archives:
 # Owner/author information
 author:
   name:           Dmitry Kostyaev
-  picture:        your-photo.jpg
+  picture:        circle_avatar_128.png
   email:          dmitry@kostyaev.me
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:  Machine learning engineer  
